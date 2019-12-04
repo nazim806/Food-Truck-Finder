@@ -1,0 +1,24 @@
+{
+  "name": "food-truck-finder",
+  "version": "1.0.0",
+  "description": "App for finding nearby food trucks and also for exotic recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazim806/Food-Truck-Finder.git"
+  },
+  "keywords": [
+    "React.JS",
+    "Node.JS",
+    "MongoDB"
+  ],
+  "author": "Nazim Uddin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazim806/Food-Truck-Finder/issues"
+  },
+  "homepage": "https://github.com/nazim806/Food-Truck-Finder#readme"
+}
