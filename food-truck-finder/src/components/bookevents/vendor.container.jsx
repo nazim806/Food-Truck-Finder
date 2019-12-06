@@ -1,4 +1,3 @@
-
 import React, { Component } from "react";
 import styled from "styled-components";
 import Clients from "../clients/clients";
@@ -10,19 +9,20 @@ const Container = styled.section`
   margin: ${props => props.margin || "10px"};
   padding: ${props => props.padding || "10px 10px"};
   grid-template-columns: ${props => props.gridTemplateColumns || ""};
-  grid-gap:${props => props.gridGap || "30px"};
-  font-size: 20px;
+  grid-gap: ${props => props.gridGap || "30px"};
+  font-size: 16px;
   align-items: center;
 `;
 
 const Card = styled.section`
-  height: ${props => props.height || "300px"};
-  width: ${props => props.width || "300px"};
+  height: ${props => props.height || "325px"};
+  width: ${props => props.width || "350px"};
   background-color: burlywood;
   border-radius: ${props => props.borderRadius || "30px"};
   display: grid;
   grid-template-rows: ${props => props.gridTemplateRows || ""};
-  grid-template-columns: ${props => props.gridTemplateColumns || "1fr 2fr 1fr"};
+  grid-template-columns: ${props =>
+    props.gridTemplateColumns || "1fr 2fr  1fr"};
   align-items: center;
   padding: ${props => props.padding || "10px"};
 `;

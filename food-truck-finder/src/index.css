@@ -5,9 +5,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Merriweather', serif;
+  /*font-family: 'PT Sans', sans-serif;*/
+  /*font-family: 'Luckiest Guy', cursive;*/
+  font-size:14px;
+  color:black;
+  line-height:1.8;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  background:url(./images/sky.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+} 
+.menu__logo{
+  /*text-emphasis: inherit -999999px;*/
+  display:inline-block;
+  height:100%;
+  width:160px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  margin:0;
+  font-size:medium;
+  text-align: center;
+  text-justify: auto;
+
+}
+.nav__icon{
+  height:100%;
+  width:70px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+@media(min-width:451px){
+  body{
+    font-size:14px;
+  }
+}
+@media(min-width:769px){
+  body{
+    font-size:16px;
+  }
+}
+@media(min-width:1025px){
+  body{
+    font-size:18px;
+  }
 }
