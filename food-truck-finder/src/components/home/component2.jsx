@@ -10,11 +10,11 @@ export class Component2 extends Component {
             {props =>(
                 <div style={props}>
 
-                    {/* <div style="c2Style">
+                    <div style="c2Style">
                         <h1>component 2 - WHERE IS MY NEXT MEAL PARKED?</h1>
                         <p>Real time GPS locator with ton of Food Trucks in your Area. Book and Find Your favorite Food Truck; Our top rated vendors are ready for your next event.</p>
                 
-                    </div> */}
+                    </div>
                     <div style={c2Style}>
                         <h1>ABOUT US</h1>
                         <p>We are 4 Enterpreneurs brought together this idea of building a Food Truck Locator App and helping small business increase their sell by more than 20% </p>

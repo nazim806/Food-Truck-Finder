@@ -12,11 +12,11 @@ export class Component3 extends Component{
             {props =>(
                 <div style={props}>
 
-                    {/* <div style="c2Style">
+                    <div style="c2Style">
                         <h1>component 2 - WHERE IS MY NEXT MEAL PARKED?</h1>
                         <p>Real time GPS locator with ton of Food Trucks in your Area. Book and Find Your favorite Food Truck; Our top rated vendors are ready for your next event.</p>
                 
-                    </div> */}
+                    </div>
                         <div style={c3Style}>
                             <div className="hero">
                                 <div class="highway"></div>
