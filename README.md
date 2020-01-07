@@ -1,8 +1,14 @@
 # Food-Truck-Finder
 
-App link: http://foodtruck-finder.s3-website-us-west-1.amazonaws.com/
+This App allows users to find Food Trucks in the San Francisco Area, It provides information about food trucks location and their current
 
-An app to find nearby food trucks in the San Francisco city area and also recipes for exotic food.
+address, recipes and vendor registration(Book events). The App uses Node JS/React Router Dom, Redux, and Axios for the server and routing,
+
+MongoDB/Mongoose for the database coming from our local and Remote DB. For the layout of our site we used pure React to implement master 
+
+components that make it easy and simple to navigate in the most convenient way.
+
+App link: http://foodtruck-finder.s3-website-us-west-1.amazonaws.com/
 
 This project was bootstrapped with Create React App and done in collaboration with Angel, Luis and Bilal.
 
